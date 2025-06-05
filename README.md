@@ -1,0 +1,2 @@
+This project is a Streamlit-based web application that enables users to translate text from uploaded documents (PDF, TXT, CSV, Excel) into various languages using OpenAI’s GPT-3.5-turbo via LangChain. After translation, the application uses Google Text-to-Speech (gTTS) to convert the translated text into audio, which users can download. 
+The app supports file uploads, real-time translation, language selection, and audio file generation—all through an intuitive and modular interface.
