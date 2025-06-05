@@ -43,7 +43,7 @@ def translate(input: str, lang: str) -> str:
 
 def text_to_speech(text, code):
     tts = gTTS(text, lang= code)
-    with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3", dir='D:\Gen_AI\Edureka_pro\Audio_Files') as tmpfile:
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as tmpfile:
         tts.save(tmpfile.name)
         return tmpfile.name
     
