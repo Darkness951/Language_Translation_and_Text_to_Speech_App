@@ -1,0 +1,10 @@
+streamlit 
+openai 
+gtts 
+pypdf
+pandas
+python-dotenv
+langchain
+langchain_community
+langchain-openai
+xlrd
